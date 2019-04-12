@@ -10,7 +10,7 @@ transform = vtk.vtkTransform()
 # Setup the transform here.
 # We just set one rotation around the x-axis, but the
 # transform can be anything.
-transform.RotateX(45)
+transform.RotateX(90)
 
 # Here we calculate the normals for all surfaces in the cylinder.
 norms_before = vtk.vtkPolyDataNormals()
